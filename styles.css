@@ -1,0 +1,114 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container styles */
+.bigdiv {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Step heading styles */
+.align {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* File upload section styles */
+.input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+#textImg {
+    display: block;
+    margin: 0 auto;
+    max-width: 10%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+}
+
+#optionsImg{
+    display: block;
+    margin: 0 auto;
+    max-width: 10%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+}
+
+#waitImg{
+    display: block;
+    margin: 0 auto;
+    max-width: 10%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+}
+/* Action button styles */
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Reload button styles */
+#text4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#text4 button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#text4 button:hover {
+    color: #0056b3;
+}
