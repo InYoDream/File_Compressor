@@ -6,8 +6,6 @@ Huffman coding is a popular algorithm used for lossless data compression. It wor
 
 - Compress text files using Huffman coding.
 - Decompress Huffman-encoded files to retrieve the original text.
-- Command-line interface for easy usage.
-- Support for both compression and decompression modes.
 
 
 Demo : https://inyodream.github.io/HuffmanCompression/
