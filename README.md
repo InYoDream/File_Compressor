@@ -8,4 +8,4 @@ Huffman coding is a popular algorithm used for lossless data compression. It wor
 - Decompress Huffman-encoded files to retrieve the original text.
 
 
-Demo : https://inyodream.github.io/HuffmanCompression/
+Demo : https://file-compressor-8mp1om6ku-inyodreams-projects.vercel.app/
